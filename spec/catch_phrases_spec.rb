@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 
-describe mario (phrase = "It's-a me, Mario!") do
+describe mario (phrase) do
   it "puts out 'It's-a me, Mario!'" do
     phrase = "It's-a me, Mario!"
     expect{mario}.to output("It's-a me, Mario!\n").to_stdout
