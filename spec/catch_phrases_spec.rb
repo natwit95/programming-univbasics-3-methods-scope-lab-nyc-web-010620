@@ -8,7 +8,7 @@ describe "mario" do
   end
 end
 
-
+mario (phrase)
 
 describe "toadstool" do
   it "puts out 'Thank You Mario! But Our Princess Is In Another Castle!'" do
